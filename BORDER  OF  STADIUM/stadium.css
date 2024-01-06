@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: rgb(145, 195, 244);
+}
+
+
+.stadium_kattaroq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    width: 883px;
+    height: 580px;
+    background: rgb(124, 231, 101);
+    vertical-align: middle;
+    position: absolute;
+    top: 3%;
+    background-color: rgb(22, 71, 206);
+    animation: animate1 20s ease-in-out infinite;
+    z-index: 5;
+}
+
+
+@keyframes animate1 {
+
+    0% {
+        background: linear-gradient(90deg, rgb(148, 155, 207), rgb(0, 30, 255), rgb(148, 155, 207));
+        transition: 20s;
+    }
+    5% {
+        background: linear-gradient(90deg, rgb(0, 30, 255), rgb(148, 155, 207), rgb(0, 30, 255));
+        transition: 20s;
+    }
+    10% {
+        background: linear-gradient(90deg, rgb(148, 155, 207), rgb(0, 30, 255), rgb(148, 155, 207));
+        transition: 20s;
+    }
+    15% {
+        background: linear-gradient(90deg, rgb(0, 30, 255), rgb(148, 155, 207), rgb(0, 30, 255));
+        transition: 20s;
+    }
+    20% {
+        background: linear-gradient(90deg, rgb(219, 13, 78), rgb(211, 116, 169), rgb(219, 13, 78));
+        transition: 20s;
+    }
+    25% {
+        background: linear-gradient(90deg, rgb(211, 116, 169), rgb(219, 13, 78), rgb(211, 116, 169));
+        transition: 20s;
+    }
+    30% {
+        background: linear-gradient(90deg, rgb(219, 13, 78), rgb(211, 116, 169), rgb(219, 13, 78));
+        transition: 20s;
+    }
+    35% {
+        background: linear-gradient(90deg, rgb(211, 116, 169), rgb(219, 13, 78), rgb(211, 116, 169));
+        transition: 20s;
+    }
+    40% {
+        background: linear-gradient(90deg, yellow, orange, yellow);
+        transition: 20s;
+    }
+    45% {
+        background: linear-gradient(90deg, orange, yellow, orange);
+        transition: 20s;
+    }
+    50% {
+        background: linear-gradient(90deg, yellow, orange, yellow);
+        transition: 20s;
+    }
+    55% {
+        background: linear-gradient(90deg, orange, yellow, orange);
+        transition: 20s;
+    }
+    60% {
+        background: linear-gradient(90deg, green, yellowgreen, green);
+        transition: 20s;
+    }
+    65% {
+        background: linear-gradient(90deg, yellowgreen, green, yellowgreen);
+        transition: 20s;
+    }
+    70% {
+        background: linear-gradient(90deg, green, yellowgreen, green);
+        transition: 20s;
+    }
+    75% {
+        background: linear-gradient(90deg, yellowgreen, green, yellowgreen);
+        transition: 20s;
+    }
+    80% {
+        background: linear-gradient(90deg, rgb(0, 238, 255), rgb(207, 175, 175), rgb(0, 238, 255));
+        transition: 20s;
+    }
+    85% {
+        background: linear-gradient(90deg, rgb(207, 175, 175), rgb(0, 238, 255), rgb(207, 175, 175));
+        transition: 20s;
+    }
+    90% {
+        background: linear-gradient(90deg, rgb(0, 238, 255), rgb(207, 175, 175), rgb(0, 238, 255));
+        transition: 20s;
+    }
+    95% {
+        background: linear-gradient(90deg, rgb(207, 175, 175), rgb(0, 238, 255), rgb(207, 175, 175));
+        transition: 20s;
+    }
+    100% {
+        background: linear-gradient(90deg, rgb(0, 30, 255), rgb(148, 155, 207), rgb(0, 30, 255));
+        transition: 20s;
+    }
+}
+
+
+.stadium_katta {
+    border: 5px solid black;
+    border-bottom: none;
+    width: 820px;
+    height: 550px;
+    vertical-align: middle;
+    background-color: rgb(124, 231, 101);
+    position: absolute;
+    top: 4.6%;
+    left: 3%;
+    z-index: 100;
+}
+
+
+.stadium_katta2 {
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+    width: 883px;
+    height: 550px;
+    background: rgb(124, 231, 101);
+    vertical-align: middle;
+    position: absolute;
+    top: 5%;
+    z-index: 40;
+    animation: animate2 20s ease-in-out infinite;
+}
+
+
+@keyframes animate2 {
+    0% {
+        background: linear-gradient(90deg, rgb(148, 155, 207), rgb(0, 30, 255), rgb(148, 155, 207));
+        transition: 20s;
+    }
+    5% {
+        background: linear-gradient(90deg, rgb(0, 30, 255), rgb(148, 155, 207), rgb(0, 30, 255));
+        transition: 20s;
+    }
+    10% {
+        background: linear-gradient(90deg, rgb(148, 155, 207), rgb(0, 30, 255), rgb(148, 155, 207));
+        transition: 20s;
+    }
+    15% {
+        background: linear-gradient(90deg, rgb(0, 30, 255), rgb(148, 155, 207), rgb(0, 30, 255));
+        transition: 20s;
+    }
+    20% {
+        background: linear-gradient(90deg, rgb(219, 13, 78), rgb(211, 116, 169), rgb(219, 13, 78));
+        transition: 20s;
+    }
+    25% {
+        background: linear-gradient(90deg, rgb(211, 116, 169), rgb(219, 13, 78), rgb(211, 116, 169));
+        transition: 20s;
+    }
+    30% {
+        background: linear-gradient(90deg, rgb(219, 13, 78), rgb(211, 116, 169), rgb(219, 13, 78));
+        transition: 20s;
+    }
+    35% {
+        background: linear-gradient(90deg, rgb(211, 116, 169), rgb(219, 13, 78), rgb(211, 116, 169));
+        transition: 20s;
+    }
+    40% {
+        background: linear-gradient(90deg, yellow, orange, yellow);
+        transition: 20s;
+    }
+    45% {
+        background: linear-gradient(90deg, orange, yellow, orange);
+        transition: 20s;
+    }
+    50% {
+        background: linear-gradient(90deg, yellow, orange, yellow);
+        transition: 20s;
+    }
+    55% {
+        background: linear-gradient(90deg, orange, yellow, orange);
+        transition: 20s;
+    }
+    60% {
+        background: linear-gradient(90deg, green, yellowgreen, green);
+        transition: 20s;
+    }
+    65% {
+        background: linear-gradient(90deg, yellowgreen, green, yellowgreen);
+        transition: 20s;
+    }
+    70% {
+        background: linear-gradient(90deg, green, yellowgreen, green);
+        transition: 20s;
+    }
+    75% {
+        background: linear-gradient(90deg, yellowgreen, green, yellowgreen);
+        transition: 20s;
+    }
+    80% {
+        background: linear-gradient(90deg, rgb(0, 238, 255), rgb(207, 175, 175), rgb(0, 238, 255));
+        transition: 20s;
+    }
+    85% {
+        background: linear-gradient(90deg, rgb(207, 175, 175), rgb(0, 238, 255), rgb(207, 175, 175));
+        transition: 20s;
+    }
+    90% {
+        background: linear-gradient(90deg, rgb(0, 238, 255), rgb(207, 175, 175), rgb(0, 238, 255));
+        transition: 20s;
+    }
+    95% {
+        background: linear-gradient(90deg, rgb(207, 175, 175), rgb(0, 238, 255), rgb(207, 175, 175));
+        transition: 20s;
+    }
+    100% {
+        background: linear-gradient(90deg, rgb(0, 30, 255), rgb(148, 155, 207), rgb(0, 30, 255));
+        transition: 20s;
+    }
+}
+
+
+.stadium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #ffffff;
+    width: 600px;
+    height: 350px;
+    background: rgb(47, 255, 0);
+    vertical-align: middle;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    z-index: 101;
+}
+
+
+.markaz_chizigi {
+    border: 2.5px solid #ffffff;
+    width: 0;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+}
+
+
+.markaz_aylanasi {
+    border: 5px solid #ffffff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 225px;
+}
+
+
+.markaz_nuqtasi {
+    border: 8px solid #ffffff;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    position: absolute;
+    top: 171px;
+    left: 294px;
+}
+
+
+.stadium_burchak_chizigi_1 {
+    border-top: 5px solid #ffffff;
+    border-left: 5px solid rgb(124, 231, 101);
+    border-right: 5px solid rgb(124, 231, 101);
+    border-bottom: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: -19.5px;
+    left: -24.5px;
+    transform: rotate(130deg);
+    z-index: 0;
+}
+
+
+.stadium_burchak_chizigi_2 {
+    border-top: 5px solid #ffffff;
+    border-left: 5px solid rgb(124, 231, 101);
+    border-right: 5px solid rgb(124, 231, 101);
+    border-bottom: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -19.5px;
+    left: -24.5px;
+    transform: rotate(49deg);
+    z-index: 0;
+}
+
+
+.stadium_burchak_chizigi_3 {
+    border-top: 5px solid #ffffff;
+    border-left: 5px solid rgb(124, 231, 101);
+    border-right: 5px solid rgb(124, 231, 101);
+    border-bottom: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: -19.5px;
+    right: -24.5px;
+    transform: rotate(-130deg);
+    z-index: 0;
+}
+
+
+.stadium_burchak_chizigi_4 {
+    border-top: 5px solid #ffffff;
+    border-left: 5px solid rgb(124, 231, 101);
+    border-right: 5px solid rgb(124, 231, 101);
+    border-bottom: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -19.5px;
+    right: -24.5px;
+    transform: rotate(-49deg);
+    z-index: 0;
+}
+
+
+.jarima_16_1 {
+    border: 5px solid #ffffff;
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    top: 75px;
+    left: -4px;
+    z-index: 1;
+}
+
+
+.jarima_16_2 {
+    border: 5px solid #ffffff;
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    top: 75px;
+    right: -4px;
+    z-index: 1;
+}
+
+
+.darvoza_1 {
+    border: 5px solid #ffffff;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: 135px;
+    left: -49px;
+    z-index: -1;
+}
+
+
+.darvoza_2 {
+    border: 5px solid #ffffff;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: 135px;
+    right: -49px;
+    z-index: -1;
+}
+
+
+.jarima_16_1_y_aylana {
+    border: 5px solid #ffffff;
+    border-top: 5px solid rgb(47, 255, 0);
+    border-left: none;
+    border-bottom: 5px solid rgb(47, 255, 0);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    top: 98px;
+    left: -8px;
+    z-index: 0;
+}
+
+
+.jarima_16_2_y_aylana {
+    border: 5px solid #ffffff;
+    border-top: 5px solid rgb(47, 255, 0);
+    border-right: none;
+    border-bottom: 5px solid rgb(47, 255, 0);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    top: 98px;
+    right: -8px;
+    z-index: 0;
+}
+
+
+.jarima_16_1_ichi {
+    border: 5px solid #ffffff;
+    width: 55px;
+    height: 110px;
+    position: absolute;
+    top: 120px;
+    left: -4px;
+}
+
+
+.jarima_16_2_ichi {
+    border: 5px solid #ffffff;
+    width: 55px;
+    height: 110px;
+    position: absolute;
+    top: 120px;
+    right: -4px;
+}
+
+
+.jarima_16_1_penalti {
+    border: 4px solid #ffffff;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    left: 85px;
+}
+
+
+.jarima_16_2_penalti {
+    border: 4px solid #ffffff;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    right: 85px;
+}
+
+
+.zaxira_square_1 {
+    border: 4px dashed #ffffff;
+    border-bottom: none;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 375px;
+    left: 130px;
+}
+
+
+.zaxira_square_2 {
+    border: 4px dashed #ffffff;
+    border-bottom: none;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 375px;
+    right: 126px;
+}
+
+
+.zaxira_players_1 {
+    border: 4px solid dodgerblue;
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    top: 425px;
+    left: 130px;
+    right: 126px;
+    background: rgb(3, 69, 135);
+
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+
+.zaxira_players_2 {
+    border: 4px solid dodgerblue;
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    top: 425px;
+    right: 126px;
+    background: rgb(3, 69, 135);
+
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 3px;
+}

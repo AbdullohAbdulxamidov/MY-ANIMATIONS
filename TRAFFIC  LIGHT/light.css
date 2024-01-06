@@ -1,0 +1,287 @@
+/* BODY BOSHI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    border: 5px solid rgb(15, 14, 14);
+    background: #444;
+    width: 250px;
+    height: 660px;
+    border-radius: 10px;
+    box-shadow: 55px 55px 110px rgba(0, 0, 0, 0.7),
+        -55px -55px 110px rgba(255, 255, 255, 1);
+}
+
+
+.container .red {
+    border: 5px solid #777;
+    background: #777;
+    /* border: 5px solid red;
+    background-color: red; */
+    position: relative;
+    top: 50px;
+    left: 42px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* box-shadow: 35px 35px 70px rgba(246, 26, 26, 0.9),
+    -35px -35px 70px rgba(246, 26, 26, 0.9),
+    -35px 35px 70px rgba(246, 26, 26, 0.9),
+    35px -35px 70px rgba(246, 26, 26, 0.9); */
+    animation: animatered 45s linear infinite;
+}
+
+
+@keyframes animatered {
+    0% {
+        border: 5px solid red;
+        background-color: red;
+        /* box-shadow: 35px 35px 70px rgba(246, 26, 26, 0.9),
+            -35px -35px 70px rgba(246, 26, 26, 0.9),
+            -35px 35px 70px rgba(246, 26, 26, 0.9),
+            35px -35px 70px rgba(246, 26, 26, 0.9); */
+    }
+
+    15% {
+        border: 5px solid red;
+        background-color: red;
+        /* box-shadow: 35px 35px 70px rgba(246, 26, 26, 0.9),
+            -35px -35px 70px rgba(246, 26, 26, 0.9),
+            -35px 35px 70px rgba(246, 26, 26, 0.9),
+            35px -35px 70px rgba(246, 26, 26, 0.9); */
+    }
+
+    28% {
+        border: 5px solid red;
+        background-color: red;
+        /* box-shadow: 35px 35px 70px rgba(246, 26, 26, 0.9),
+        -35px -35px 70px rgba(246, 26, 26, 0.9),
+        -35px 35px 70px rgba(246, 26, 26, 0.9),
+        35px -35px 70px rgba(246, 26, 26, 0.9); */
+    }
+
+    29%, 30% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    31%, 32% {
+        border: 5px solid red;
+        background-color: red;
+    }
+
+    33%, 34% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    35%, 36% {
+        border: 5px solid red;
+        background-color: red;
+    }
+
+    37%, 38% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    39%, 40% {
+        border: 5px solid red;
+        background-color: red;
+    }
+
+    50% {
+        border: 5px solid red;
+        background-color: red;
+    }
+
+    51% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    100% {
+        border: 5px solid #777;
+        background: #777;
+    }
+}
+
+
+.container .yellow {
+    border: 5px solid #777;
+    background: #777;
+    /* border: 5px solid rgb(255, 251, 0);
+    background-color: rgb(255, 251, 0); */
+    position: relative;
+    top: 100px;
+    left: 42px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* box-shadow: 35px 35px 70px rgba(244, 248, 19, 0.9),
+    -35px -35px 70px rgba(244, 248, 19, 0.9),
+    -35px 35px 70px rgba(244, 248, 19, 0.9),
+    35px -35px 70px rgba(244, 248, 19, 0.9); */
+    animation: animateyellow 45s linear infinite;
+}
+
+
+@keyframes animateyellow {
+    0% {
+        border: 5px solid #777;
+        background: #777;
+        /* box-shadow: 35px 35px 70px rgba(246, 26, 26, 0.9),
+            -35px -35px 70px rgba(246, 26, 26, 0.9),
+            -35px 35px 70px rgba(246, 26, 26, 0.9),
+            35px -35px 70px rgba(246, 26, 26, 0.9); */
+    }
+
+    40% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    41% {
+        border: 5px solid rgb(255, 251, 0);
+        background-color: rgb(255, 251, 0);
+    }
+
+    50% {
+        border: 5px solid rgb(255, 251, 0);
+        background-color: rgb(255, 251, 0);
+    }
+
+    51% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    92% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    93% {
+        border: 5px solid rgb(255, 251, 0);
+        background-color: rgb(255, 251, 0);
+    }
+
+    99% {
+        border: 5px solid rgb(255, 251, 0);
+        background-color: rgb(255, 251, 0);
+    }
+
+    100% {
+        border: 5px solid #777;
+        background: #777;
+    }
+}
+
+
+.container .green {
+    border: 5px solid #777;
+    /* border: 5px solid rgb(26, 246, 33);
+    background-color: rgb(26, 246, 33); */
+    position: relative;
+    top: 150px;
+    left: 42px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #777;
+    /* box-shadow: 35px 35px 70px rgba(26, 246, 33, 0.9),
+    -35px -35px 70px rgba(26, 246, 33, 0.9),
+    -35px 35px 70px rgba(26, 246, 33, 0.9),
+    35px -35px 70px rgba(26, 246, 33, 0.9); */
+    animation: animategreen 45s linear infinite;
+}
+
+
+@keyframes animategreen {
+    0% {
+        border: 5px solid #777;
+        background: #777;
+        /* box-shadow: 35px 35px 70px rgba(246, 26, 26, 0.9),
+            -35px -35px 70px rgba(246, 26, 26, 0.9),
+            -35px 35px 70px rgba(246, 26, 26, 0.9),
+            35px -35px 70px rgba(246, 26, 26, 0.9); */
+    }
+
+    20% {
+        border: 5px solid #777;
+        background: #777;
+        /* box-shadow: 35px 35px 70px rgba(246, 26, 26, 0.9),
+            -35px -35px 70px rgba(246, 26, 26, 0.9),
+            -35px 35px 70px rgba(246, 26, 26, 0.9),
+            35px -35px 70px rgba(246, 26, 26, 0.9); */
+    }
+
+    50% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    51% {
+        border: 5px solid rgb(26, 246, 33);
+        background-color: rgb(26, 246, 33);
+    }
+
+    79% {
+        border: 5px solid rgb(26, 246, 33);
+        background-color: rgb(26, 246, 33);
+    }
+
+    80%, 81% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    82%, 83% {
+        border: 5px solid rgb(26, 246, 33);
+        background-color: rgb(26, 246, 33);
+    }
+
+    84%, 85% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    86%, 87% {
+        border: 5px solid rgb(26, 246, 33);
+        background-color: rgb(26, 246, 33);
+    }
+
+    88%, 89% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    90%, 91% {
+        border: 5px solid rgb(26, 246, 33);
+        background-color: rgb(26, 246, 33);
+    }
+
+    92% {
+        border: 5px solid #777;
+        background: #777;
+    }
+
+    100% {
+        border: 5px solid #777;
+        background: #777;
+    }
+}
+
+/* BODY YAKUNI */

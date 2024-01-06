@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #acaaaa;
+    animation: animBody 10s linear infinite;
+}
+
+
+@keyframes animBodiy {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+/* BALL SECTION  BOSHI */
+.m_ball1 {
+    border: 1px solid #555;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(91, 82, 82);
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    z-index: 7;
+}
+
+
+.m_ball1 .m_ball1_shadow {
+    border: 1px solid rgba(249, 250, 249, 0.8);
+    background: rgba(249, 250, 249, 1);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    box-shadow: 0 0 5px 5px rgba(249, 250, 249, 0.9);
+}
+
+
+.m_ball2 {
+    border: 1px solid rgb(224, 138, 138);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(224, 138, 138);
+    position: absolute;
+    top: 42%;
+    left: calc(49% - 5px);
+    z-index: 6;
+}
+
+
+.m_ball2 .m_ball2_shadow {
+    border: 1px solid #e7d3d3;
+    background: #e7d3d3;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    box-shadow: 0 0 4px 4px rgba(225, 214, 218, 0.9);
+}
+
+
+.m_ball1 .m_ball1_shadow {
+    border: 1px solid rgba(249, 250, 249, 0.8);
+    background: rgba(249, 250, 249, 1);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    box-shadow: 0 0 5px 5px rgba(249, 250, 249, 0.9);
+}
+
+
+.m_ball3 {
+    border: 1px solid #555;
+    background: rgb(91, 82, 82);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(45% - 2px);
+    left: calc(48% + 22px);
+    z-index: 5;
+}
+
+
+.m_ball3 .m_ball3_shadow {
+    border: 1px solid rgba(249, 250, 249, 0.8);
+    background: rgba(249, 250, 249, 1);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    box-shadow: 0 0 5px 5px rgba(249, 250, 249, 0.9);
+}
+
+
+.m_ball4 {
+    border: 1px solid rgb(224, 138, 138);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(224, 138, 138);
+    position: absolute;
+    top: calc(47% + 5px);
+    left: calc(49% - 5px);
+    z-index: 4;
+}
+
+
+.m_ball4 .m_ball4_shadow {
+    border: 1px solid #e7d3d3;
+    background: #e7d3d3;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    box-shadow: 0 0 4px 4px rgba(225, 214, 218, 0.9);
+}
+
+
+.m_ball5 {
+    border: 1px solid #555;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(91, 82, 82);
+    position: absolute;
+    top: calc(48% - 2px);
+    left: 47%;
+    z-index: 3;
+}
+
+
+.m_ball5 .m_ball5_shadow {
+    border: 1px solid rgba(249, 250, 249, 0.8);
+    background: rgba(249, 250, 249, 1);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    box-shadow: 0 0 5px 5px rgba(249, 250, 249, 0.9);
+}
+
+
+.m_ball6 {
+    border: 1px solid rgb(224, 138, 138);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(224, 138, 138);
+    position: absolute;
+    top: calc(44.5% + 4px);
+    left: calc(47% - 12px);
+    z-index: 2;
+}
+
+
+.m_ball6 .m_ball6_shadow {
+    border: 1px solid #e7d3d3;
+    background: #e7d3d3;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    box-shadow: 0 0 4px 4px rgba(225, 214, 218, 0.9);
+}
+
+
+.m_ball7 {
+    border: 1px solid #555;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(91, 82, 82);
+    position: absolute;
+    top: calc(42% + 1px);
+    left: calc(47% + 0px);
+    z-index: 1;
+}
+
+
+.m_ball7 .m_ball7_shadow {
+    border: 1px solid rgba(249, 250, 249, 0.8);
+    background: rgba(249, 250, 249, 1);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    box-shadow: 0 0 5px 5px rgba(249, 250, 249, 0.9);
+}
+/* BALL SECTION  YAKUNI */
+
+
+
+
+
+
+
+
+/* CIRCLE  1  SECTION  BOSHI */
+.circle1 {
+    border: 5px solid #555;
+    height: 120px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: calc(39% - 5px);
+}
+/* CIRCLE  1  SECTION  YAKUNI */
+
+
+
+
+
+
+
+
+/* CIRCLE  2  SECTION  BOSHI */
+/* CIRCLE  2  SECTION  YAKUNI */
+
+
+
+
+
+
+
+
+/* CIRCLE  3  SECTION  BOSHI */
+/* CIRCLE  3  SECTION  YAKUNI */

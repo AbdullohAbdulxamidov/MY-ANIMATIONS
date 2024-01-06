@@ -1,0 +1,489 @@
+/* BODY SECTION BOSHI */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 900px;
+    background-color: #3b3b3e;
+}
+/* BODY SECTION BOSHI */
+
+
+
+
+
+
+/* NEPTUN SECTION BOSHI */
+.neptun {
+    border: 1px solid #888;
+    border-top: 1px solid #888;
+    width:1200px;
+    height: 1200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -240px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateX(55deg);
+    animation: animNeptun 90s linear infinite;
+}
+
+
+.p_neptun {
+    border: 1px solid #0e4ac3;
+    background: #0e4ac3;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 170px;
+    left: 137px;
+}
+
+
+@keyframes animNeptun {
+    0% {
+        transform: rotateX(55deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(55deg) rotateZ(360deg);
+    }
+}
+/* NEPTUN SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+/* URAN SECTION BOSHI */
+.uran {
+    border: 1px solid #888;
+    border-top: 1px solid #888;
+    width: 1040px;
+    height: 1040px;
+    border-radius: 50%;
+    position: absolute;
+    top: -160px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateX(55deg);
+    animation: animUran 70s linear infinite;
+}
+
+
+.p_uran {
+    border: 1px solid #4878da;
+    background: #4878da;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    position: relative;
+    top: 59px;
+    left: 217px;
+}
+
+
+@keyframes animUran {
+    0% {
+        transform: rotateX(55deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(55deg) rotateZ(360deg);
+    }
+}
+/* URAN SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+/* SATURN SECTION BOSHI */
+.saturn {
+    border: 1px solid #888;
+    border-top: 1px solid #888;
+    width: 880px;
+    height: 880px;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateX(55deg);
+    animation: animSaturn 40s linear infinite;
+}
+
+
+.p_saturn {
+    border: 1px solid #dac748;
+    background: #dac748;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    top: 26px;
+    left: 217px;
+}
+
+
+@keyframes animSaturn {
+    0% {
+        transform: rotateX(55deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(55deg) rotateZ(360deg);
+    }
+}
+/* SATURN SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+/* JUPITER SECTION BOSHI */
+.jupiter {
+    border: 1px solid #888;
+    border-top: 1px solid #888;
+    width: 720px;
+    height: 720px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateX(55deg);
+    animation: animSaturn 25s linear infinite;
+}
+
+
+.p_jupiter {
+    border: 1px solid #e2d686;
+    background: #e2d686;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 217px;
+}
+
+
+@keyframes animJupiter {
+    0% {
+        transform: rotateX(55deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(55deg) rotateZ(360deg);
+    }
+}
+/* JUPITER SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+/* MARS SECTION BOSHI */
+.mars {
+    border: 1px solid #888;
+    border-top: 1px solid #888;
+    width: 512px;
+    height: 512px;
+    border-radius: 50%;
+    position: absolute;
+    top: 104px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateX(55deg);
+    animation: animMars 14s linear infinite;
+}
+
+
+.p_mars {
+    border: 1px solid #cb5f1b;
+    background: #cb5f1b;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 217px;
+}
+
+
+@keyframes animMars {
+    0% {
+        transform: rotateX(55deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(55deg) rotateZ(360deg);
+    }
+}
+/* MARS SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+/* EARTH SECTION BOSHI */
+.earth {
+    border: 1px solid #888;
+    border-top: 1px solid #888;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 160px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateX(55deg);
+    animation: animEarth 10s linear infinite;
+}
+
+
+.p_earth {
+    border: 1px solid #2ca4d7;
+    background: #2ca4d7;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    top: -12px;
+    left: 217px;
+}
+
+
+@keyframes animEarth {
+    0% {
+        transform: rotateX(55deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(55deg) rotateZ(360deg);
+    }
+}
+/* EARTH SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+/* VENERA SECTION BOSHI */
+.venera {
+    border: 1px solid #888;
+    border-top: 1px solid #888;
+    width: 304px;
+    height: 304px;
+    border-radius: 50%;
+    position: absolute;
+    top: 208px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateX(55deg);
+    animation: animVenera 7s linear infinite;
+}
+
+
+.p_venera {
+    border: 1px solid #d3b4a1;
+    background: #d3b4a1;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 217px;
+}
+
+
+@keyframes animVenera {
+    0% {
+        transform: rotateX(55deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(55deg) rotateZ(360deg);
+    }
+}
+/* VENERA SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+/* MERCURY SECTION BOSHI */
+.mercury {
+    border: 1px solid #888;
+    border-top: 1px solid #888;
+    width: 208px;
+    height: 208px;
+    border-radius: 50%;
+    position: absolute;
+    top: 256px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateX(55deg);
+    animation: animMercury 4s linear infinite;
+}
+
+
+.p_mercury {
+    border: 1px solid #c1ada0;
+    background: #c1ada0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    position: relative;
+    top: 90px;
+    left: 193px;
+}
+
+
+@keyframes animMercury {
+    0% {
+        transform: rotateX(55deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(55deg) rotateZ(360deg);
+    }
+}
+/* MERCURY SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+/* QUYOSH SECTION BOSHI */
+.p_sun {
+    border: 1px solid yellow;
+    background: rgb(250, 250, 24);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -95px;
+    left: 0px;
+    text-align: center;
+    box-shadow: 0 0 15px 15px rgb(254, 254, 9, 0.8);
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateX(55deg);
+}
+/* QUYOSH SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+
+/* CIRCLE  2  SECTION  BOSHI */
+.circle2 {
+    border: 5px solid #555;
+    border-right: 7px solid #555;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 27%;
+    left: calc(39% - 5px);
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateY(60deg);
+    animation: animCircle2 10s linear infinite;
+    animation-delay: -3s;
+    z-index: 1;
+}
+
+
+@keyframes animCircle2 {
+    0% {
+        transform: rotateY(60deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateY(60deg) rotateZ(360deg);
+    }
+}
+
+
+.circle2_shadow {
+    border: 1px solid rgb(136, 210, 142);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(136, 210, 142);
+    position: absolute;
+    top: 3%;
+    left: calc(15% + 0px);
+    z-index: 1;
+    transform-style: preserve-3d;
+}
+
+
+.circle2 .circle2_shadowww {
+    border: 1px solid rgba(249, 250, 249, 0.8);
+    background: rgba(249, 250, 249, 1);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-shadow: 0 0 5px 5px rgba(249, 250, 249, 0.9);
+}
+/* CIRCLE  2  SECTION  YAKUNI */

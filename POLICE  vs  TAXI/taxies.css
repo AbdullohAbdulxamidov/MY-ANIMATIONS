@@ -1,0 +1,541 @@
+/* BODY SECTION BOSHI */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgb(205, 208, 25);
+}
+
+
+.road {
+    position: absolute;
+    transform: skew(30%);
+    height: 250px;
+    width: 1670px;
+    display: flex;
+    background-color: #355463;
+    justify-content: center;
+    align-items: center;
+    /* background: #333;
+    border-radius: 75px; */
+    transform-style: preserve-3d;
+    transform: rotate(-15deg);
+    /* perspective: 500px; */
+}
+
+
+.road::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #fff, #fff 50%, transparent 50%, transparent 100%);
+    background-size: 50px;
+    animation: animate_road 0.11s linear infinite;
+}
+
+
+@keyframes animate_road {
+    0% {
+        background-position: 50px 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+/* BODY SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+/* TAXI SECTION BOSHI */
+.police {
+    position: absolute;
+    left: -50px;
+    width: 200px;
+    height: 80px;
+    background: #3f4c54;
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.05);
+    transform-style: preserve-3d;
+    perspective: 800px;
+    animation: animate_taxi 5s linear infinite;
+    z-index: 10;
+}
+
+
+.police:nth-child(2) {
+    left: 220px;
+    animation: animate_taxi 4s linear infinite;
+    animation-delay: -1.5s;
+    z-index: 9;
+}
+
+
+.police:nth-child(3) {
+    left: 480px;
+    animation: animate_taxi 4s linear infinite;
+    animation-delay: -2.5s;
+    z-index: 9;
+}
+
+
+.police:nth-child(4) {
+    left: 750px;
+    animation: animate_taxi 4s linear infinite;
+    animation-delay: -3.5s;
+    z-index: 9;
+}
+
+
+
+@keyframes animate_taxi {
+    0% {
+        transform: translateX(20px) translateY(-50px);
+    }
+    25% {
+        transform: translateX(-10px) translateY(0px);
+    }
+    50% {
+        transform: translateX(20px) translateY(50px);
+    }
+    75% {
+        transform: translateX(-10px) translateY(0px);
+    }
+    100% {
+        transform: translateX(20px) translateY(-50px);
+    }
+}
+
+
+.police::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 2px;
+    width: 5px;
+    height: 15px;
+    background: #fc3c25;
+    border-radius: 2px;
+    box-shadow: 0 42px #fc3c25;
+}
+
+
+.police::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 2px;
+    width: 6px;
+    height: 16px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 44px #fff;
+}
+
+
+.police span {
+    position: absolute;
+    inset: 5px 10px;
+    background: #475b66;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.police span::before {
+    content: '911';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #333;
+    transform: translate(-50%, -50%) rotate(90deg);
+    font-size: 1.15em;
+    font-weight: 1000;
+    letter-spacing: 0.1em;
+    z-index: 10;
+}
+
+
+.police span::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    width: 6px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    background: #29282b;
+    z-index: 100;
+    box-shadow: 0 -10px #1f5fff, 0 10px #df1b25;
+}
+
+
+.police span b {
+    position: absolute;
+    inset: 0 30px;
+    background: #344650;
+    border-radius: 10px;
+}
+
+
+.police span b::before {
+    content: '';
+    position: absolute;
+    background: #ebebeb;
+    inset: 6px 25px;
+    border-radius: 5px;
+}
+
+
+.police span b::after {
+    content: '';
+    position: absolute;
+    background: #ebebeb;
+    inset: 0 58px;
+}
+
+
+.police span i {
+    position: absolute;
+    inset: 0;
+}
+
+
+.police span i::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    width: 40px;
+    height: 5px;
+    background: #ebebeb;
+    transform-origin: right;
+    transform: rotate(15deg);
+    box-shadow: 100px 34px #ebebeb;
+}
+
+
+.police span i::after {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    left: 20px;
+    width: 40px;
+    height: 5px;
+    background: #ebebeb;
+    transform-origin: right;
+    transform: rotate(-15deg);
+    box-shadow: 100px -34px #ebebeb;
+}
+
+
+.police .light {
+    position: absolute;
+    top: 5px;
+    right: -2px;
+    width: 10px;
+    height: 70px;
+    background: #0002;
+    border-radius: 15px;
+    transform-style: preserve-3d;
+}
+
+
+.police .light::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 150px;
+    height: 16px;
+    background: linear-gradient(90deg, #fff6, transparent);
+    transform-origin: left;
+    transform: perspective(500px) rotateY(-50deg);
+}
+
+
+.police .light::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 150px;
+    height: 16px;
+    background: linear-gradient(90deg, #fff6, transparent);
+    transform-origin: left;
+    transform: perspective(500px) rotateY(-50deg);
+}
+
+
+.police .h31 {
+    position: absolute;
+    top: 50%;
+    left: -7px;
+    color: #fff;
+    z-index: 10;
+    transform: translateY(-50%) rotate(90deg) scale(0.75);
+    letter-spacing: 2px;
+}
+
+
+.police .h32 {
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    color: #fff;
+    z-index: 10;
+    transform: translateY(-50%) rotate(270deg) scale(0.75);
+    letter-spacing: 2px;
+}
+
+
+.police .mirror {
+    position: absolute;
+    inset: 0;
+}
+
+
+.police .mirror::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 40px;
+    width: 5px;
+    height: 10px;
+    color: #ebebeb;
+    border-top-right-radius: 10px;
+}
+
+
+.police .mirror::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    right: 40px;
+    width: 5px;
+    height: 10px;
+    color: #ebebeb;
+    border-bottom-right-radius: 10px;
+}
+/* TAXI SECTION YAKUNI */
+
+
+
+
+
+
+
+
+
+
+
+
+/* taxi */
+
+/* TAXI SECTION BOSHI */
+.taxi {
+    position: absolute;
+    right: 90px;
+    width: 200px;
+    height: 80px;
+    background: #c9c5c5;
+    border-radius: 10px;
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.25);
+    transform-style: preserve-3d;
+    perspective: 800px;
+    animation: animate_taxis 4s linear infinite;
+    animation-delay: -3s;
+    z-index: 10;
+}
+
+
+.taxi:nth-child(1) {
+    right: 50px;
+    animation: animate_taxis 4s linear infinite;
+    z-index: 9;
+}
+
+
+
+@keyframes animate_taxis {
+    0% {
+        transform: translateX(20px) translateY(-40px);
+    }
+    25% {
+        transform: translateX(-10px) translateY(0px);
+    }
+    50% {
+        transform: translateX(20px) translateY(40px);
+    }
+    75% {
+        transform: translateX(-10px) translateY(0px);
+    }
+    100% {
+        transform: translateX(20px) translateY(-40px);
+    }
+}
+
+
+.taxi::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 2px;
+    width: 5px;
+    height: 15px;
+    background: #fc3c25;
+    border-radius: 2px;
+    box-shadow: 0 42px #fc3c25;
+}
+
+
+.taxi::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 2px;
+    width: 6px;
+    height: 16px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 44px #fff;
+}
+
+
+.taxi span {
+    position: absolute;
+    inset: 5px 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.taxi span::before {
+    content: 'TAXI';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%) rotate(90deg);
+    padding: 2px;
+    font-size: 0.75em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px #0005;
+    z-index: 10;
+}
+
+
+.taxi span b {
+    position: absolute;
+    inset: 0 30px;
+    background: #111;
+    border-radius: 10px;
+}
+
+
+.taxi span b::before {
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    inset: 6px 25px;
+    border-radius: 5px;
+}
+
+
+.taxi span b::after {
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    inset: 0 58px;
+}
+
+
+.taxi span i {
+    position: absolute;
+    inset: 0;
+}
+
+
+.taxi span i::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    width: 40px;
+    height: 5px;
+    background: #ffffff;
+    transform-origin: right;
+    transform: rotate(15deg);
+    box-shadow: 100px 34px #ffffff;
+}
+
+
+.taxi span i::after {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    left: 20px;
+    width: 40px;
+    height: 5px;
+    background: #ffffff;
+    transform-origin: right;
+    transform: rotate(-15deg);
+    box-shadow: 100px -34px #ffffff;
+}
+
+
+.taxi .light {
+    position: absolute;
+    top: 5px;
+    right: -2px;
+    width: 10px;
+    height: 70px;
+    background: #0002;
+    border-radius: 15px;
+    transform-style: preserve-3d;
+}
+
+
+.taxi .light::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 150px;
+    height: 16px;
+    background: linear-gradient(90deg, #fff6, transparent);
+    transform-origin: left;
+    transform: perspective(500px) rotateY(-59deg);
+}
+
+
+.taxi .light::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 150px;
+    height: 16px;
+    background: linear-gradient(90deg, #fff6, transparent);
+    transform-origin: left;
+    transform: perspective(500px) rotateY(-59deg);
+}
+/* TAXI SECTION YAKUNI */
